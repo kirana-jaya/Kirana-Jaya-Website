@@ -2,8 +2,9 @@ language: ruby
 rvm:
   - 2.4.0
 before_script:
-  - bundle exec rake db:create --all
-  - bundle exec rake db:migrate
+  - bundle install --deployment --path vendor/bundle
+  - bundle exec rake db:setup
+  - bundle exec rake db:test:prepare
 script:
   - bundle exec rake ci:tests
 services:
