@@ -1,7 +1,7 @@
 # README
 
 [![Build Status](https://semaphoreci.com/api/v1/fybwid/ruby-on-rails-bootstrap/branches/master/shields_badge.svg)](https://semaphoreci.com/fybwid/ruby-on-rails-bootstrap)
-[![Coverage Status](https://coveralls.io/repos/github/fybwid/ruby-on-rails-bootstrap/badge.svg?branch=master)](https://coveralls.io/github/fybwid/ruby-on-rails-bootstrap?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/kirana-jaya/Kirana-Jaya-Website/badge.svg?branch=master)](https://coveralls.io/github/kirana-jaya/Kirana-Jaya-Website?branch=master)
 * Ruby version: 2.4.0
 
 * System dependencies
