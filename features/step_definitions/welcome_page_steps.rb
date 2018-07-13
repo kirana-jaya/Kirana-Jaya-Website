@@ -3,9 +3,9 @@ When(/^I go to the homepage$/) do
 end
 
 Then(/^I should see the Kirana Jaya header$/) do
-  page.all('title', visible: false, text: "CV Kirana Jaya")
+  page.find(:xpath, '//head/title', visible: false, text: "CV Kirana Jaya")
 end
 
 And(/^I should see the Welcome message$/) do
-  page.all('h1', text: "Selamat datang di Kirana Jaya")
+  page.find(:xpath, '//body/h1', visible: true, text: "Selamat datang di CV Kirana Jaya")
 end
