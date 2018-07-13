@@ -3,10 +3,9 @@ When(/^I go to the homepage$/) do
 end
 
 Then(/^I should see the Kirana Jaya header$/) do
-  expect(page).to have_css("//head//title", :value => "Kirana Jaya")
+  page.all('title', visible: false, text: "CV Kirana Jaya")
 end
 
 And(/^I should see the Welcome message$/) do
-  expect(page).to have_css("//body//h1", :value => "Selamat datang di Kirana Jaya")
-  expect(page).to have_css("//body//p", :value => "Kami menyediakan Garam dan Alat Tulis Kantor dengan kualitas dan harga terbaik. Datang dan buktikan, kami siap memenuhi kebutuhan Anda.")
+  page.all('h1', text: "Selamat datang di Kirana Jaya")
 end
