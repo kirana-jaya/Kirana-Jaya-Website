@@ -1,6 +1,6 @@
-Feature: Hello Cucumber
+Feature: Welcome Page
   As a product manager
-  I want our users to be greeted when they visit our site
+  I want our users to be greeted when they visit Kirana Jaya site
   So that they have a better experience
 
 Scenario: User sees the welcome message
